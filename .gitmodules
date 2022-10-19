@@ -1,0 +1,3 @@
+[submodule "BabylonNative-WSL"]
+	path = BabylonNative-WSL
+	url = https://github.com/docEdub/BabylonNative.git
