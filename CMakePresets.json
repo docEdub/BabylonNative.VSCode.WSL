@@ -1,0 +1,17 @@
+{
+    "version": 2,
+    "configurePresets": [
+        {
+            "name": "Ubuntu_GCC10_V8",
+            "generator": "Ninja",
+            "binaryDir": "${sourceDir}/.build/${presetName}",
+            "cacheVariables": {
+                "CMAKE_C_COMPILER": "/usr/bin/gcc-10",
+                "CMAKE_CXX_COMPILER": "/usr/bin/g++-10",
+                "CMAKE_BUILD_TYPE": "Debug",
+                "CMAKE_INSTALL_PREFIX": "${sourceDir}/.install/${presetName}",
+                "NAPI_JAVASCRIPT_ENGINE": "V8"
+            }
+        }
+    ]
+}
